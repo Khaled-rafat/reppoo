@@ -56,6 +56,6 @@ public class Course {
     @Override
 public String toString() {
 
-    return "Course{" +"courseId = " + courseId +", courseName = " + courseName +", duration = " + duration +", trainer = " + (trainer != null ? trainer.getName() : "No Trainer") +'}';
+    return "Course{" +"courseId = " + courseId "}"
 }
 }
